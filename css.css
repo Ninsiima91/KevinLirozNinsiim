@@ -24,9 +24,7 @@ body{
     -moz-osx-font-smoothing:grayscale;
 }
 
-/* background canvas sits under content */
-#bg-canvas{position:fixed;inset:0;z-index:0;pointer-events:none}
-
+/* page content */
 .content{position:relative;z-index:1}
 
 .container{width:90%;max-width:1100px;margin:0 auto}
